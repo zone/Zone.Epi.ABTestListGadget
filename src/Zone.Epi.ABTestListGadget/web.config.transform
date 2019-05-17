@@ -1,0 +1,7 @@
+<configuration>
+    <episerver.shell>
+        <protectedModules>
+            <add name="Zone.Epi.ABTestListGadget" />
+        </protectedModules>
+    </episerver.shell>
+</configuration>

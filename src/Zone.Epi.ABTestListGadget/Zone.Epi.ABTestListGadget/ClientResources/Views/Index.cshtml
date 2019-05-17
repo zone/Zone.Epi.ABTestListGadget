@@ -1,0 +1,98 @@
+﻿@inherits System.Web.Mvc.WebViewPage
+<div class="abreviewer">
+    <table id='abtesttable' data-dojo-attach-point="abtesttable"></table>
+    <input data-dojo-attach-point="abtestpagenext" value="Next" type="button" class="abreviewer_next-pager" />
+    <select data-dojo-attach-point="abtestpagesiteselector" class="abreviewer_site-selector hidden"></select>
+    <div class="abreviewer__centre">
+        <p data-dojo-attach-point="abtestpagecounter" class="abreviewer_page-counter"></p>
+    </div>
+    <input data-dojo-attach-point="abtestpageprevious" value="Previous" type="button" class="abreviewer_previous-pager hidden" />
+
+    <style type="text/css">
+    .abreviewer {
+        overflow-y: auto;
+    }
+
+    .abreviewer table {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .abreviewer table caption {
+        font-size: 1.5em;
+        margin: .5em 0 .75em;
+    }
+
+    .abreviewer table tr {
+        background-color: #f8f8f8;
+        border: 1px solid #ddd;
+        padding: .35em;
+        word-break: break-word;
+    }
+
+    .abreviewer table tr a {
+        color: #041b66;
+    }
+
+    .abreviewer table tr a:visited {
+        color: #041b66;
+    }
+
+    .abreviewer table tr a:hover {
+        color: #f7542b;
+    }
+
+    .abreviewer table tr:first-child {
+        background-color: #dedede;
+        color: black;
+    }
+
+    .abreviewer table td {
+        padding: .625em;
+        text-align: center;
+    }
+
+    .abreviewer table th {
+        font-size: .85em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+
+    .abreviewer_next-pager {
+        float: right;
+        margin: 5px;
+        padding: 3px;
+    }
+
+    .abreviewer_previous-pager {
+        float: left;
+        margin: 5px;
+        padding: 3px;
+    }
+
+    .abreviewer_page-counter {
+        text-align: center;
+    }
+
+    .abreviewer__centre {
+        text-align: center;
+        left: 48%;
+        position: absolute;
+        padding-top: 7px;
+    }
+
+    .abreviewer .hidden {
+        display: none;
+    }
+
+    .abreviewer_site-selector {
+        float: right;
+        margin: 5px;
+        padding: 3px;
+    }
+</style>
+</div>
