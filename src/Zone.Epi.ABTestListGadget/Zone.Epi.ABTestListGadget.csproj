@@ -20,7 +20,7 @@
     <PackageTags>Episerver.Marketing.Testing Zone EPiServerAddOn Episerver</PackageTags>
     <!--set urls as needed-->
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <License>https://raw.githubusercontent.com/zone/Zone.Epi.ABTestListGadget/master/License.txt</License>
+    <License>https://raw.githubusercontent.com/zone/Zone.Epi.ABTestListGadget/master/license.txt</License>
     <PackageProjectUrl>https://github.com/zone/Zone.Epi.ABTestListGadget</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/zone/Zone.Epi.ABTestListGadget/master/img/Zone.jpg</PackageIconUrl>
 
